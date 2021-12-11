@@ -14,9 +14,11 @@ knowledge.
 
 This Journal is under active development.
 
-Contents
---------
-
 .. toctree::
+   :maxdepth: 2
 
-   Create Journal Server
+   Welcome
+   Buildroot
+   Yocto
+   Yeo distro
+   Test project
