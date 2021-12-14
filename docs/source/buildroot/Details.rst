@@ -1,5 +1,6 @@
 
-# Example
+Examples
+========
 
 Run two commands, get a Linux distro built from source.
 
@@ -9,7 +10,8 @@ Run two commands, get a Linux distro built from source.
     1. [Out of tree package](https://github.com/cirosantilli/buildroot/tree/out-of-tree-2016.05)
 
 
-# QEMU example
+QEMU example
+------------
 
 Tested on Ubuntu 16.04.
 
@@ -23,7 +25,8 @@ Tested on Ubuntu 16.04.
     # cat board/qemu/x86_64/readme.txt
     qemu-system-x86_64 -M pc -kernel output/images/bzImage -drive file=output/images/rootfs.ext2,if=virtio,format=raw -append root=/dev/vda -net nic,model=virtio -net user
 
-# QEMU x86 nographic
+QEMU x86 nographic
+------------------
 
 https://www.hiroom2.com/2016/05/20/ubuntu-16-04-build-buildroot-and-run-qemu/
 
@@ -35,7 +38,7 @@ At Buildroot 7e85734709e0da78cc399c1b85655528e2d5f209 requires:
 
 TODO: but why does it work on: https://github.com/cirosantilli/linux-kernel-module-cheat/tree/b8f190cc24b4f7474894b68a5510a8f3d767843d even without changing it? Buildroot version difference?
 
-# ARM
+ARM
 
 Full QEMU command documented under `board/qemu/*/readme.txt`.
 
@@ -59,11 +62,13 @@ TODO: Ctrl + C kills the emulator itself. Why? Not like that in X86.
 - <https://github.com/cloudius-systems/osv/issues/49>
 - <https://unix.stackexchange.com/questions/167165/how-to-pass-ctrl-c-in-qemu>
 
-# Don't ask for password at login
+Don't ask for password at login
+-------------------------------
 
 <http://unix.stackexchange.com/questions/299408/how-to-login-automatically-without-typing-root-in-buildroot-x86-64-qemu>
 
-# config
+config
+------
 
 All options are stored in `.config` before build. The `.config` file fully specifies the entire system.
 
@@ -76,12 +81,14 @@ Whenever you do `make`, `make oldconfig` gets run. `make oldconfig` removes any 
 
 Some configs are not put on the `.config`, while others are commented out. TODO: commented out means dependencies and have been met, removed not?
 
-# Important configurations
+Important configurations
+------------------------
 
     LINUX_KERNEL_VERSION="4.5.3"
     BR2_GCC_VERSION_4_9_X=y
 
-# Add a file to the distro
+Add a file to the distro
+------------------------
 
     mkdir a
     mkdir a/b
@@ -90,11 +97,13 @@ Some configs are not put on the `.config`, while others are commented out. TODO:
 
 Outcome: the root of the generated filesystem now contains `/b/c`.
 
-# Permanent storage filesystem
+Permanent storage filesystem
+----------------------------
 
 TODO
 
-# Remove package
+Remove package
+--------------
 
 Currently impossible.
 
@@ -102,15 +111,18 @@ For simple cases, just remove the files from:
 
     rm output/target/usr/bin/hello
 
-# random: nonblocking pool is initialized
+random: nonblocking pool is initialized
+---------------------------------------
 
 TODO how to stop printing that
 
-# Projects that use Buildroot:
+Projects that use Buildroot:
+============================
 
 - <https://en.wikipedia.org/wiki/OpenWrt>
 
-# Games
+Games
+-----
 
 Placed under `/usr/bin` and `/usr/games`.
 
@@ -120,17 +132,21 @@ Grouped under `packages/Config.in`:
 
 Many / all are SDL based. It seems that SDL has an `fbdev` mode that dispenses X11.
 
-# prdoom
+prdoom
+------
 
-# chocolate-doom
+chocolate-doom
+--------------
 
 Doom clones.
 
 This shows one running on uclinux blackfin SDL DirectFB: https://www.youtube.com/watch?v=fKyQOntPEFs
 
-# ltris
+ltris
+-----
 
-# lbreakout2
+lbreakout2
+----------
 
 From: http://lgames.sourceforge.net/about.php
 
@@ -144,35 +160,43 @@ Looks like this is caused by the call: <https://www.libsdl.org/release/SDL-1.2.1
 
 `fbset` seems to do the same calls, and fails in the same way.
 
-# opentyrian
+opentyrian
+----------
 
 Takes over screen and hangs.
 
-# sl
+sl
+--
 
 Classic steam locomotive `sl` typo corrector. Text only.
 
-# gnuchess
+gnuchess
+--------
 
 CLI chess.
 
-# X11
+X11
+---
 
 http://unix.stackexchange.com/questions/70931/install-x11-on-my-own-linux-system
 
-# GUI
+GUI
+---
 
 - <http://unix.stackexchange.com/questions/70931/install-x11-on-my-own-linux-system/306116#306116>
 
-# SDL without X11
+SDL without X11
+---------------
 
 - <http://stackoverflow.com/questions/1263710/minimal-linux-distrobution-with-sdl-support-and-no-xwindows>
 
-# Web browser
+Web browser
+-----------
 
 - <http://unix.stackexchange.com/questions/17779/how-can-i-build-a-custom-distribution-for-running-a-simple-web-browser/306192#306192>
 
-# Debugging tools
+Debugging tools
+---------------
 
 The basics: always compile with:
 
@@ -182,34 +206,42 @@ The basics: always compile with:
 - strace
 - QEMU: buildroot can even compile QEMU!
 
-# sshd
+sshd
+----
 
 <http://stackoverflow.com/a/39301480/895245>
 
-# nc
+nc
+--
 
-# netcat
+netcat
+------
 
 Not enabled on BusyBox by default, see: `package/busybox/default.config`
 
 But we have ping (TODO from where?), so whatever.
 
-# Boards
+Boards
+======
 
-# Raspberry pi
+Raspberry pi
+------------
 
 TODO: how to emulate with QEMU? `aarch` procedure did no work, no `dtb` file.
 
 Just worked on a PI2 via UART. No `sshd` daemon though.
 
-# Firefly
+Firefly
+-------
 
 - <https://bugs.busybox.net/show_bug.cgi?id=9226>
 - <http://bbs.t-firefly.com/forum.php?mod=viewthread&tid=1777>
 
-# UML
+UML
+---
 
-# User mode Linux
+User mode Linux
+---------------
 
 TODO: supported or not?
 
@@ -220,6 +252,7 @@ Direct `linux` in rootfs failed.
 - <https://wiki.archlinux.org/index.php/User-mode_Linux#Build_rootfs_image>
 - <https://unix.stackexchange.com/questions/73203/how-to-create-rootfs-for-user-mode-linux-on-fedora-18>
 
-# Contributing
+Contributing
+============
 
 CI: http://autobuild.buildroot.net/
