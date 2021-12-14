@@ -1,5 +1,5 @@
 
-## Example
+# Example
 
 Run two commands, get a Linux distro built from source.
 
@@ -196,13 +196,13 @@ But we have ping (TODO from where?), so whatever.
 
 # Boards
 
-## Raspberry pi
+# Raspberry pi
 
 TODO: how to emulate with QEMU? `aarch` procedure did no work, no `dtb` file.
 
 Just worked on a PI2 via UART. No `sshd` daemon though.
 
-## Firefly
+# Firefly
 
 - <https://bugs.busybox.net/show_bug.cgi?id=9226>
 - <http://bbs.t-firefly.com/forum.php?mod=viewthread&tid=1777>

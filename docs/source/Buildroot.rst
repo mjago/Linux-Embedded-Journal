@@ -27,4 +27,4 @@ Details
    :caption: Table of Contents
    :numbered:
 
-   buildroot/Details.md
+   buildroot/Details
