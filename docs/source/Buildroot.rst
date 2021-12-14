@@ -1,3 +1,5 @@
+.. SPDX-License-Identifier: CC-BY-SA-2.0-UK
+
 =========
 Buildroot
 =========
@@ -5,13 +7,13 @@ Buildroot
 Introduction
 ------------
 
-The first build tool to look at is `Buildroot <https://buildroot.org>`_.  Buildroot claims to be
-a simple, efficient and easy-to-use tool to generate embedded Linux
+The `Buildroot <https://buildroot.org>`_ project claims to be a
+simple, efficient and easy-to-use tool to generate embedded Linux
 systems through a cross-compilation process on a host machine. It has
 a simple structure that makes it easy to understand and extend. It
 relies only on the well-known Makefile language.
 
-Buildroot rakes care of:
+Buildroot takes care of:
 
 - cross compilation. In other words, compiles GCC for you. Several architectures supported.
 - bootloading. Several bootloaders supported.
@@ -20,11 +22,13 @@ Buildroot rakes care of:
 
 Lots of software supported.
 
+
 Details
 -------
 
 .. toctree::
    :caption: Table of Contents
    :numbered:
+   :maxdepth: 2
 
-   buildroot/Details
+   buildroot/details

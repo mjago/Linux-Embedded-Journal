@@ -20,6 +20,7 @@ Details
 .. toctree::
    :caption: Table of Contents
    :numbered:
+   :maxdepth: 2
 
    yocto-project/system-requirements
    yocto-project/terms
@@ -38,3 +39,4 @@ Details
    yocto-project/resources
 
 # .. include:: /boilerplate.rst
+
