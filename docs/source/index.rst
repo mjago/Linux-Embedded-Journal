@@ -17,7 +17,7 @@ This Journal is under active development.
    :maxdepth: 2
 
    Introduction
-   buildroot/Buildroot
+   Buildroot
    Yocto Project
    Yoe Distro
    Device Tree
