@@ -29,6 +29,11 @@ Details
 .. toctree::
    :caption: Table of Contents
    :numbered:
-   :maxdepth: 2
 
+   build-rt/examples
+   build-rt/config
    build-rt/details
+   build-rt/boards
+   build-rt/debug
+   build-rt/projects
+   build-rt/contrib

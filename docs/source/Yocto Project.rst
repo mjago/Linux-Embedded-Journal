@@ -38,5 +38,4 @@ Details
    yocto-oe/faq
    yocto-oe/resources
 
-# .. include:: /boilerplate.rst
 
