@@ -15,4 +15,4 @@ Yocto Project Development Tasks Manual
    common-tasks
    qemu
 
-.. include:: /boilerplate.rst
+# .. include:: /boilerplate.rst

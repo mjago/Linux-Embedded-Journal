@@ -37,4 +37,4 @@ Details
    yocto-project/faq
    yocto-project/resources
 
-.. include:: /boilerplate.rst
+# .. include:: /boilerplate.rst
