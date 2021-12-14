@@ -7,7 +7,7 @@ copyright = '2021, Martyn Jago'
 author = 'mjago'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.1'
 
 # -- General configuration
 
