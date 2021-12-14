@@ -56,10 +56,11 @@ exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 
 # for markdown files
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.parser import CommonMarkParser
 # The suffix of source filenames.
 source_suffix=['.rst', '.md']
 
-source_parsers = {
-       '.md': CommonMarkParser,
-}
+
+#source_parsers = {
+#       '.md': CommonMarkParser,
+#}
