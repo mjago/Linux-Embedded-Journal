@@ -23,11 +23,10 @@ Details
 
 .. toctree::
    :caption: Table of Contents
-   :numbered:
 
-   device-tree/chapter1-introduction
-   device-tree/chapter2-devicetree-basics.rst
-   device-tree/chapter3-devicenodes.rst
-   device-tree/chapter4-device-bindings.rst
-   device-tree/chapter5-flattened-format.rst
-   device-tree/chapter6-source-language.rst
+   dev-tree/chapter1-introduction
+   dev-tree/chapter2-devicetree-basics.rst
+   dev-tree/chapter3-devicenodes.rst
+   dev-tree/chapter4-device-bindings.rst
+   dev-tree/chapter5-flattened-format.rst
+   dev-tree/chapter6-source-language.rst

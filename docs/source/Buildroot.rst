@@ -31,4 +31,4 @@ Details
    :numbered:
    :maxdepth: 2
 
-   buildroot/details
+   build-rt/details

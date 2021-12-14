@@ -22,21 +22,21 @@ Details
    :numbered:
    :maxdepth: 2
 
-   yocto-project/system-requirements
-   yocto-project/terms
-   yocto-project/release-process
-   yocto-project/structure
-   yocto-project/classes
-   yocto-project/tasks
-   yocto-project/devtool-reference
-   yocto-project/kickstart
-   yocto-project/qa-checks
-   yocto-project/images
-   yocto-project/features
-   yocto-project/variables
-   yocto-project/varlocality
-   yocto-project/faq
-   yocto-project/resources
+   yocto-oe/system-requirements
+   yocto-oe/terms
+   yocto-oe/release-process
+   yocto-oe/structure
+   yocto-oe/classes
+   yocto-oe/tasks
+   yocto-oe/devtool-reference
+   yocto-oe/kickstart
+   yocto-oe/qa-checks
+   yocto-oe/images
+   yocto-oe/features
+   yocto-oe/variables
+   yocto-oe/varlocality
+   yocto-oe/faq
+   yocto-oe/resources
 
 # .. include:: /boilerplate.rst
 
