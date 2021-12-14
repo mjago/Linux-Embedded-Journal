@@ -6,7 +6,7 @@ project = 'Embedded Linux Journal'
 copyright = '2021, Martyn Jago'
 author = 'mjago'
 
-release = '0.1'
+release = '0.1.1'
 version = '0.1.1'
 
 # -- General configuration
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser'
 ]
 
 intersphinx_mapping = {
@@ -30,8 +31,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+#html_theme = 'default'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-extensions = ['myst_parser']
