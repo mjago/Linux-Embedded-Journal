@@ -53,7 +53,8 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 exclude_patterns = ['_build']
-pygments_style = 'sphinx'
+#pygments_style = 'sphinx'
+pygments_style = 'fruity'
 
 # for markdown files
 #from recommonmark.parser import CommonMarkParser
