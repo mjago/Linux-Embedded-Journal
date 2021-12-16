@@ -64,3 +64,22 @@ source_suffix=['.rst', '.md']
 #source_parsers = {
 #       '.md': CommonMarkParser,
 #}
+
+# external links and substitutions
+extlinks = {
+    'yocto_home': ('https://www.yoctoproject.org%s', None),
+    'yocto_wiki': ('https://wiki.yoctoproject.org/wiki%s', None),
+    'yocto_dl': ('https://downloads.yoctoproject.org%s', None),
+    'yocto_lists': ('https://lists.yoctoproject.org%s', None),
+    'yocto_bugs': ('https://bugzilla.yoctoproject.org%s', None),
+    'yocto_ab': ('https://autobuilder.yoctoproject.org%s', None),
+    'yocto_docs': ('https://docs.yoctoproject.org%s', None),
+    'yocto_git': ('https://git.yoctoproject.org/cgit/cgit.cgi%s', None),
+    'yocto_sstate': ('http://sstate.yoctoproject.org%s', None),
+    'oe_home': ('https://www.openembedded.org%s', None),
+    'oe_lists': ('https://lists.openembedded.org%s', None),
+    'oe_git': ('https://git.openembedded.org%s', None),
+    'oe_wiki': ('https://www.openembedded.org/wiki%s', None),
+    'oe_layerindex': ('https://layers.openembedded.org%s', None),
+    'oe_layer': ('https://layers.openembedded.org/layerindex/branch/master/layer%s', None),
+}

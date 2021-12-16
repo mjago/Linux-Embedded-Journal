@@ -1,0 +1,3 @@
+[submodule "docs/linux_embed"]
+	path = docs/linux_embed
+	url = https://github.com/mjago/linux_embed.git

@@ -13,6 +13,9 @@ regardless of the hardware architecture. It provides a flexible set of
 tools and a space where embedded developers can share technologies,
 software stacks, configs, and best practices that are used to create tailored Linux images for embedded and IOT devices.
 
+Online Docs
+-----------
+   https://docs.yoctoproject.org/
 
 Details
 -------
