@@ -11,6 +11,9 @@ build:
   tools:
     python: "3.9"
 
+submodules:
+  include: all
+
 sphinx:
    configuration: docs/source/conf.py
 
