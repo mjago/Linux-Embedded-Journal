@@ -40,6 +40,18 @@ gpio.h
 .. literalinclude:: ../../linux_embed/ctrltemp/gpio.h
   :language: C
 
+led.c
+-----
+
+.. literalinclude:: ../../linux_embed/ctrltemp/led.c
+  :language: C
+
+led.h
+------
+
+.. literalinclude:: ../../linux_embed/ctrltemp/led.h
+  :language: C
+
 mailbox.c
 ---------
 
@@ -86,6 +98,18 @@ pwm.h
 -----
 
 .. literalinclude:: ../../linux_embed/ctrltemp/pwm.h
+  :language: C
+
+relay.c
+-----
+
+.. literalinclude:: ../../linux_embed/ctrltemp/relay.c
+  :language: C
+
+relay.h
+-----
+
+.. literalinclude:: ../../linux_embed/ctrltemp/relay.h
   :language: C
 
 rpihw.c
