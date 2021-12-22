@@ -24,4 +24,5 @@ Details
    :maxdepth: 3
 
    test-project/Code
+   test-project/Support Code
    test-project/Compilation
