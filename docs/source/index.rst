@@ -22,4 +22,4 @@ This Journal is under active development.
    Yoe Distro
    Device Tree
    Test Project
-   Device Drivers
+   Kernel Development

@@ -7,6 +7,7 @@ Contents:
    :numbered:
    :maxdepth: 2
 
+   kernel_development/Code of Conduct
    kernel_development/Intro
    kernel_development/Process
    kernel_development/Early-stage
