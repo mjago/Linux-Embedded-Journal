@@ -7,14 +7,14 @@ Contents:
    :numbered:
    :maxdepth: 2
 
-   1.kernel_development/Intro
-   2.kernel_development/Process
-   3.kernel_development/Early-stage
-   4.kernel_development/Coding
-   5.kernel_development/Posting
-   6.kernel_development/Followthrough
-   7.kernel_development/AdvancedTopics
-   8.kernel_development/Conclusion
+   kernel_development/Intro
+   kernel_development/Process
+   kernel_development/Early-stage
+   kernel_development/Coding
+   kernel_development/Posting
+   kernel_development/Followthrough
+   kernel_development/AdvancedTopics
+   kernel_development/Conclusion
 
 The purpose of this document is to help developers (and their managers)
 work with the development community with a minimum of frustration.  It is
